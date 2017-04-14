@@ -1,0 +1,47 @@
+.L {
+	height: 50px;
+}
+
+.C {
+	height: 100px;
+}
+
+.CL {
+	height: 150px;
+}
+
+.CC {
+	height: 200px;
+}
+
+.CCL {
+	height: 250px;
+}
+
+.CCC {
+	height: 300px;
+}
+
+.CCCL {
+	height: 350px;
+}
+
+.CD {
+	height: 400px;
+}
+
+.CDL {
+	height: 450px;
+}
+
+.D {
+	height: 500px;
+}
+
+.border {
+	border: black solid 1px;	
+}
+
+.son {
+	border: red solid 1px;
+}
