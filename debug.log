@@ -1,0 +1,6 @@
+[0413/190328.563:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Cansuck\reports: Acceso denegado. (0x5)
+[0413/190328.579:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0413/190328.583:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Cansuck\reports: Acceso denegado. (0x5)
+[0413/190403.260:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Cansuck\reports: Acceso denegado. (0x5)
+[0413/190403.290:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0413/190403.293:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Cansuck\reports: Acceso denegado. (0x5)

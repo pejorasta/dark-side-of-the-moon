@@ -4,44 +4,278 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </head>
 <body>
+  <!-- here goes the navbar -->
+<nav class="navbar navbar-inverse">
 
-<div class="container">
 
-  <div class="row C border">
-  	
-  </div>
 
-  <div class="row border">
 
-  	<div class="col-md-9 son">
 
-  		<div class="row">
-
-  			<div class="col-md-12 border CCCL">
-  				
-  			</div>
-
-  			<div class="col-md-12 border CCCL">
-  				
-  			</div>
-  			
-  		</div>
-  		
-  	</div>
-
-  	<div class="col-md-3 D son">
-  		
-  	</div>
-  	
-  </div>
 
 </div>
 
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img class="minn" src="imgs/rammstein2.jpg"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="col-sm-2 col-xs-6 " onmouseover="newColorP(this)" onmouseout="backWhiteP(this)">
+    <a href="@">Metalmania</a>
+  </div>
+  <div class="col-sm-2 col-xs-6" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+    <a href="@">Metalmania</a>
+  </div>
+  <div class="col-sm-2 col-xs-6 " onmouseover="newColorP(this)" onmouseout="backWhiteP(this)">
+    <a href="@">Metalmania</a>
+  </div>
+  <div class="col-sm-2 col-xs-6 " onmouseover="newColor(this)" onmouseout="backWhite(this)">
+    <a href="@">Metalmania</a>
+  </div>
+  <div class="col-sm-2 col-xs-6 " onmouseover="newColorP(this)" onmouseout="backWhiteP(this)">
+    <a href="@">Metalmania</a>
+  </div>
+  <div class="col-sm-2 col-xs-6 " onmouseover="newColor(this)" onmouseout="backWhite(this)">
+    <a href="@">Metalmania</a>
+  </div>
+</div>
+  <!-- here was the navbar -->
+
+
+<div class= "row">
+  <div class=" col-md-8">
+      <!-- franja de arriba I-->
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="text"  onmouseover="newColorP(this)" onmouseout="backWhiteP(this)">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>  
+        </div>
+        <div class="col-md-4 col-sm-12" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/rammstein.jpg"  class="img-responsive">  
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/rammstein.jpg"  class="img-responsive">  
+          </div>
+          
+        </div>
+      </div>
+      <!-- franja de abajo I-->
+      <div class="row">
+        <div class= " col-md-12">
+          <form>
+            <label>Deja tu comentario!</label><br>
+            <textarea class="col-md-12"></textarea>
+          </form>
+        </div>
+        <div class= " col-md-12">
+          <form>
+            <table>
+              <tr>
+                <td>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <!-- franja de arriba II -->
+      <div class="row main">
+        <div class="col-md-4 col-sm-12" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <div class="text"  onmouseover="newColorP(this)" onmouseout="backWhiteP(this)" onmouseover="newColorP(this)" onmouseout="backWhiteP(this)">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>  
+        </div>
+      </div>
+      <!-- franja de abajo II -->
+      <div class="row">
+        <div class= C col-md-6">
+          <form>
+            <label>Deja tu comentario!</label><br>
+            <textarea class="col-md-12"></textarea>
+          </form>
+        </div>
+        <div class= C col-md-6">
+          <form>
+            <table>
+              <tr>
+                <td>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                  <label><a href="#">Mas informacion aqui!</a></label>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+
+  </div>
+  <!-- here goes the freaking left side -->
+  <div class="col-md-4 col-sm-12">
+    <table>
+      <form>
+        <tr>
+          <td>
+            <label>Busqueda</label>
+            <input type="text" name="busqueda">
+          </td>
+        </tr>
+      </form>
+    </table>
+    
+      <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-6 col-sm-12">
+          <div class="text"  onmouseover="newColorP(this)" onmouseout="backWhiteP(this)" onmouseover="newColor(this)"   onmouseout="backWhite(this)">
+            <P><strong><a href="#">Mayo - 2016</a></strong></P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor </p><br>
+          </div>  
+        </div>
+        <div class="col-md-6 col-sm-12" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+          <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-6 col-sm-12">
+          <div class="text"  onmouseover="newColorP(this)" onmouseout="backWhiteP(this)" onmouseover="newColor(this)"   onmouseout="backWhite(this)">
+            <P><strong><a href="#">Mayo - 2016</a></strong></P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor </p><br>
+          </div>  
+        </div>
+        <div class="col-md-6 col-sm-12" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+          <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-6 col-sm-12">
+          <div class="text"  onmouseover="newColorP(this)" onmouseout="backWhiteP(this)" onmouseover="newColor(this)"   onmouseout="backWhite(this)">
+            <P><strong><a href="#">Mayo - 2016</a></strong></P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor </p><br>
+          </div>  
+        </div>
+        <div class="col-md-6 col-sm-12" onmouseover="newColor(this)" onmouseout="backWhite(this)">
+          <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <img src="imgs/anabantha.jpg"  class="img-responsive">  
+          </div>
+          
+        </div>
+      </div>
+
+      
+
+      
+
+       <closing closing soldjfafhauhpia garef rgf arg>
+      </div>
+        
+        
+        
+      
+  </div>
+</div>
+
 </body>
+<script type="text/javascript" src="js/mine.js">
+  
+</script>
 </html>

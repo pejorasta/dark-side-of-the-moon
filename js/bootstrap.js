@@ -3533,3 +3533,12 @@ var Popover = function ($) {
 }(jQuery);
 
 }();
+
+
+var div = document.getElementById("images").innerHTML;
+div.onmouseover = function(){
+  this.style.backgroundColor = "green";
+};
+div.onmouseout = function(){
+  this.style.backgroundColor = "transparent";
+};

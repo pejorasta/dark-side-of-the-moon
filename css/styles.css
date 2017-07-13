@@ -1,3 +1,9 @@
+div {
+    padding: 10px;
+}
+div > p {
+    text-align: justify
+}
 .L {
 	height: 50px;
 }
@@ -37,11 +43,85 @@
 .D {
 	height: 500px;
 }
+.DL {
+    height: 550px;
+}
 
-.border {
-	border: black solid 1px;	
+.DC {
+    height: 600px;
+}
+
+.DCL {
+    height: 650px;
+}
+
+.DCC {
+    height: 700px;
+}
+
+.DCCL {
+    height: 750px;
+}
+
+.DCCC {
+    height: 800px;
+}
+
+.DCCCL {
+    height: 850px;
+}
+
+.CM {
+    height: 900px;
+}
+
+.CML {
+    height: 950px;
+}
+
+.M {
+    height: 1000px;
+}
+
+.granpa {
+	border: red solid 1px;	
+}
+.father {
+    border: black solid 1px;    
+}
+.aunt {
+    border: blue solid 1px;    
 }
 
 .son {
-	border: red solid 1px;
+	border: green solid 1px;
+}
+.son2 {
+    border: cyan solid 1px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+.main {
+    height: auto;
+    position: relative;
+}
+
+.minn {
+    width: 100px;
+    height: 270%;
+    margin-top: 2px;
+    border: red 3px solid;
 }
